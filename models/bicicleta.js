@@ -1,4 +1,5 @@
 
+// Deynner Alexander Sanabria Rojas 20212578064
 var Bicicleta =  function (id,color,modelo,ubicacion){
     this.id = id;
     this.color = color;

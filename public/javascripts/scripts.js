@@ -6,7 +6,7 @@
 //
 // Scripts
 // 
-
+// Deynner Alexander Sanabria Rojas 20212578064
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
