@@ -2,6 +2,7 @@
 var express = require('express');
 var router = express.Router();
 var bicicletaController = require('../controllers/bicicleta');
+//var bicicletaController = require('../controllers/api/bicicletaControllerApi');
 
 // Metodo GET | URL : /bicicletas - Obtiene todas las bicicletas disponibles en la aplicación
 router.get('/', bicicletaController.bicicleta_list);
