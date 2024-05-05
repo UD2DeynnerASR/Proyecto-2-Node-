@@ -13,6 +13,7 @@ exports.bicicleta_create = function(req,res){
     bici.ubicacion = [req.body.lat, req.body.lgn];
 
     Bicicleta.add(bici);
+    
     res.status(200).json({
         bicicleta:bici
     });
