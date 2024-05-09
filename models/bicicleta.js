@@ -36,6 +36,16 @@ Bicicleta.removeById = function (aBiciId) {
     }
   }
 
+  Bicicleta.update = function(aBiciId){
+    var index = Bicicleta.allBicis.findIndex(x => x.id == aBiciId.id);
+    if(index > -1){
+        Bicicleta.allBicis[index] = aBiciId;
+        console.log(`Bicicleta updated: ${aBiciId.toString()}`);
+    }else{
+        throw new Error(`Bicicleta not found with id: ${aBiciId.id}`);
+    }
+}
+
 
   var a = new Bicicleta(1,'rojo','urbana',[-34.60122424, -58.3861497]);
   var b = new Bicicleta(2,'blanca','urbana',[-34.596932, -58.3808287]);
