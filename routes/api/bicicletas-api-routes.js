@@ -12,7 +12,7 @@ router.post('/create',bicicletaController.bicicleta_create);
 /*Este método HTTP se utiliza para eliminar un recurso de bicicleta en la API */
 router.delete('/delete',bicicletaController.bicicleta_delete);
 
-router.put('/update', bicicletaController.bicicleta_update);
+router.put('/put', bicicletaController.bicicleta_update);
 
 
 
