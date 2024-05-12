@@ -1,5 +1,5 @@
 // Deynner Alexander Sanabria Rojas 20212578064
-var map = L.map('main_map').setView([-34.6012424, -58.3861497], 13);
+var map = L.map('main_map').setView([4.5793820906638905, -74.15714600627312], 13);
 
 const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 		maxZoom: 19,
